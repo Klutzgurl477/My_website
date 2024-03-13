@@ -1,0 +1,90 @@
+header {
+    background-color: slategrey;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+}
+nav ul {
+    list-style: none;
+}
+
+div {
+    text-align: right;
+    word-spacing: 15px;
+}
+
+section {
+    text-align: center;
+    padding: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    word-spacing: normal;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section div {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+#intro {
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.con2 {
+    list-style: none;
+}
+
+footer {
+    background-color: slategray;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+}
+
+.hamburger {
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.project1:hover {
+    color: black;
+}
