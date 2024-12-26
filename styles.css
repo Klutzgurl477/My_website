@@ -180,6 +180,7 @@ nav ul li a:hover::after {
 #dog {
     text-align: center;
 }
+
 #cat {
     list-style-type: none;
     padding: 0;
@@ -257,6 +258,7 @@ nav ul li a:hover::after {
     width: 85%;
     animation: grow 2.2s forwards;
 }
+
 
 /*Work on the skill bar animation more*/
 
