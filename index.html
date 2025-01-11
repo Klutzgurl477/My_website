@@ -42,53 +42,152 @@
     </div>
 
     <!-- Projects -->
-    <div id="projects">
-        <div>
-            <!--Project 1-->
-
+    <div id="projects" class="projects-section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-container">
+            <!-- Project 1: LearnLink Capstone -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>LearnLink Capstone Project</h3>
+                    <p>
+                        A web app facilitating student communication and study group formation using React.js and backend APIs.
+                    </p>
+                </div>
+                <div class="hover-overlay">
+                    <a href="https://github.com/SCCapstone/pandas-capstone" class="learn-more-btn" target="_blank">Learn More</a>
+                </div>
+            </div>
+            <!-- Project 2: Learning Management System -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Learning Management System</h3>
+                    <p>
+                        Developed and tested Java code for managing courses, modules, and quizzes with a 4-person team using Scrum.
+                    </p>
+                </div>
+                <div class="hover-overlay">
+                    <a href="https://github.com/Klutzgurl477/LMS" class="learn-more-btn" target="_blank">Learn More</a>
+                </div>
+            </div>
+            <!-- Project 3: Music App -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Music App Project</h3>
+                    <p>
+                        An Android app showcasing Taylor Swift's discography with album covers and descriptions, built in Kotlin.
+                    </p>
+                </div>
+                <div class="hover-overlay">
+                    <a href="https://github.com/Klutzgurl477/TaylorSwiftApp" class="learn-more-btn" target="_blank">Learn More</a>
+                </div>
+            </div>
+            <!-- Project 4: Personal Mockup -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Personal Mockup Project</h3>
+                    <p>
+                        A mockup website showcasing front-end skills using JavaScript, HTML, and CSS, deployed on GitHub Pages.
+                    </p>
+                </div>
+                <div class="hover-overlay">
+                    <a href="https://github.com/Klutzgurl477/Klutzgurl477.github.io" class="learn-more-btn" target="_blank">Learn More</a>
+                </div>
+            </div>
         </div>
-        <div>
-            <!--Project 2-->
-
-        </div>
-        <div>
-            <!-- Future Projects to come...-->
-
-        </div>
-
     </div>
+    
 
     <!-- Skills -->
-    <div class="skills-container">
-        <h1 id="dog">Skills</h1> 
-       
-        <div class="skills">
-            <div class="skills-list">
-                <p>HTML</p>
-                <p>57%</p>
+    <div id="skill">
+        <div class="skills-container">
+            <h1 id="dog">Skills</h1> 
+        
+            <div class="skills">
+                <div class="skills-list">
+                    <p class="c1">HTML/CSS</p>
+                    <p class="c1">90%</p>
+                </div>
+                <div class="skill-level">
+                    <div class="skill-bar html"></div>
+                </div>
             </div>
-            <div class="skill-level">
-                <div class="skill-bar"></div>
+
+            <div class="skills">
+                <div class="skills-list">
+                    <p class="c1">Java</p>
+                    <p class="c1">80%</p>
+                </div>
+                <div class="skill-level">
+                    <div class="skill-bar java"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="skills-list">
+                    <p class="c1">Javascript</p>
+                    <p class="c1">85%</p>
+                </div>
+                <div class="skill-level">
+                    <div class="skill-bar javascript"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="skills-list">
+                    <p class="c1">Python</p>
+                    <p class="c1">70%</p>
+                </div>
+                <div class="skill-level">
+                    <div class="skill-bar python"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="skills-list">
+                    <p class="c1">Kotlin</p>
+                    <p class="c1">80%</p>
+                </div>
+                <div class="skill-level">
+                    <div class="skill-bar kotlin"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="skills-list">
+                    <p class="c1">React</p>
+                    <p class="c1">85%</p>
+                </div>
+                <div class="skill-level">
+                    <div class="skill-bar react"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="skills-list">
+                    <p class="c1">Typescript</p>
+                    <p class="c1">80%</p>
+                </div>
+                <div class="skill-level">
+                    <div class="skill-bar typescript"></div>
+                </div>
             </div>
         </div>
-         
     </div>
 
     <!-- Resume & Transcript -->
     <div id="resume_section">
         <h2>Resume & Transcript</h2>
-        <p>You can download my resume and transcrpt here: </p>
-        <!-- Change to icon of a paper -->
+        <p>You can download my resume and transcript here: </p>
         <a href="Images_website/Yesha_resume_updated_4 copy.pdf" class="download-link">
-            <i class="fas fa-file-alt"></i>
+            <i class="fas fa-file-alt"></i> <br>
             Download Resume
-        </a
-        ><br>
+        </a><br>
         <a href="Images_website/Academic Transcript_unofficial copy.pdf" class="download-link">
-            <i class="fas fa-file-alt"></i>
+            <i class="fas fa-file-alt"></i> <br>
             Download Transcript
         </a>
     </div>
+
 
     <!-- Contact -->
     <!--make the contact reactive so that when i send the message it gets 
@@ -98,14 +197,7 @@
             <div class="row">
                 <div class="contact-left">
                     <h1>Contact Me</h1>
-                    <!--
-                        <p>Email: <a href="mailto:contact@example.com">contact@example.com</a></p>
-                    <p>Phone: <a href="tel:+0123456789">0123456789</a></p>
-                    -->
-                    
                     <div class="icons">
-                        <!-- Add your social media icons here -->
-                        <!-- Change to LinkedIn, Github, & Handshake -->
                         <a href="https://www.linkedin.com/in/yesha-patel-80296b267/" target="linkedin"><i class="fab fa-linkedin"></i></a>
                         <a href="https://github.com/Klutzgurl477" target="github"><i class="fab fa-github"></i></a>
                         <a href="https://sc.joinhandshake.com/profiles/33499603" target="handshake"><i class="fas fa-handshake"></i></a>
