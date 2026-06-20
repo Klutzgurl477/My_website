@@ -3,30 +3,33 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title> Personal Portfolio Website - Computer Science Student: Yesha Patel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Computer Science Student: Yesha Patel</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 </head>
 <body id="home">
     <!-- Home -->
     <div id="header">
-        <div id="container">
+        <div class="container-nav">
             <nav>
-                <img src="Images_website/uofsc.webp" alt="uofsc logo" class="logo">
-                <ul>
+                <img src="Images_website/uofsc.webp" alt="University of South Carolina logo" class="logo">
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="navMenu">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about_me">About</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#skill">Skills</a></li>
-                    <li><a href="#resume_section">Resume & Transcript</a></li>
+                    <li><a href="#resume_section">Resume &amp; Transcript</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <!-- Add more animation to this -->
             <div class="header-text">
-                <h1> Hi, I'm <span>Yesha Patel</span><br>a Web developer<br>from <span>UofSC</span></h1>
+                <h1>Hi, I'm <span>Yesha Patel</span><br>a Web Developer<br>from <span>UofSC</span></h1>
             </div>
         </div>
     </div>
@@ -35,9 +38,9 @@
     <div id="about_me" class="about">
         <h2>About Me</h2>
         <p>
-            Hello, my name is Yesha Patel, and I am a Computer Science student at the University of South Carolina.<br>
-            I am an experienced individual in web development and design, particuarly in frontend technologies like HTML,<br>
-            CSS, JavaScript, and Adobe. I am always eager to learn and work on exciting projects that push my abilites.
+            Hello, my name is Yesha Patel, and I am a Computer Science graduate from the University of South Carolina.<br>
+            I have hands-on experience in web development and design, particularly in front-end technologies like HTML,<br>
+            CSS, JavaScript, and Adobe Creative Cloud. I'm always eager to learn and work on projects that push my abilities.
         </p>
     </div>
 
@@ -54,7 +57,7 @@
                     </p>
                 </div>
                 <div class="hover-overlay">
-                    <a href="https://github.com/SCCapstone/pandas-capstone" class="learn-more-btn" target="_blank">Learn More</a>
+                    <a href="https://github.com/SCCapstone/pandas-capstone" class="learn-more-btn" target="_blank" rel="noopener">Learn More</a>
                 </div>
             </div>
             <!-- Project 2: Learning Management System -->
@@ -66,7 +69,7 @@
                     </p>
                 </div>
                 <div class="hover-overlay">
-                    <a href="https://github.com/Klutzgurl477/LMS" class="learn-more-btn" target="_blank">Learn More</a>
+                    <a href="https://github.com/Klutzgurl477/LMS" class="learn-more-btn" target="_blank" rel="noopener">Learn More</a>
                 </div>
             </div>
             <!-- Project 3: Music App -->
@@ -78,7 +81,7 @@
                     </p>
                 </div>
                 <div class="hover-overlay">
-                    <a href="https://github.com/Klutzgurl477/TaylorSwiftApp" class="learn-more-btn" target="_blank">Learn More</a>
+                    <a href="https://github.com/Klutzgurl477/TaylorSwiftApp" class="learn-more-btn" target="_blank" rel="noopener">Learn More</a>
                 </div>
             </div>
             <!-- Project 4: Personal Mockup -->
@@ -90,18 +93,17 @@
                     </p>
                 </div>
                 <div class="hover-overlay">
-                    <a href="https://github.com/Klutzgurl477/Klutzgurl477.github.io" class="learn-more-btn" target="_blank">Learn More</a>
+                    <a href="https://github.com/Klutzgurl477/Klutzgurl477.github.io" class="learn-more-btn" target="_blank" rel="noopener">Learn More</a>
                 </div>
             </div>
         </div>
     </div>
-    
 
     <!-- Skills -->
     <div id="skill">
         <div class="skills-container">
-            <h1 id="dog">Skills</h1> 
-        
+            <h2 class="skills-heading">Skills</h2>
+
             <div class="skills">
                 <div class="skills-list">
                     <p class="c1">HTML/CSS</p>
@@ -124,7 +126,7 @@
 
             <div class="skills">
                 <div class="skills-list">
-                    <p class="c1">Javascript</p>
+                    <p class="c1">JavaScript</p>
                     <p class="c1">85%</p>
                 </div>
                 <div class="skill-level">
@@ -164,7 +166,7 @@
 
             <div class="skills">
                 <div class="skills-list">
-                    <p class="c1">Typescript</p>
+                    <p class="c1">TypeScript</p>
                     <p class="c1">80%</p>
                 </div>
                 <div class="skill-level">
@@ -176,36 +178,33 @@
 
     <!-- Resume & Transcript -->
     <div id="resume_section">
-        <h2>Resume & Transcript</h2>
-        <p>You can download my resume and transcript here: </p>
-        <a href="Images_website/Yesha_resume_updated_4 copy.pdf" class="download-link">
+        <h2>Resume &amp; Transcript</h2>
+        <p>You can download my resume and transcript here:</p>
+        <a href="Images_website/Yesha_resume_updated_4.pdf" class="download-link">
             <i class="fas fa-file-alt"></i> <br>
             Download Resume
         </a><br>
-        <a href="Images_website/Academic Transcript_unofficial copy.pdf" class="download-link">
+        <a href="Images_website/Academic_Transcript_unofficial.pdf" class="download-link">
             <i class="fas fa-file-alt"></i> <br>
             Download Transcript
         </a>
     </div>
 
-
     <!-- Contact -->
-    <!--make the contact reactive so that when i send the message it gets 
-    delivered to my personal inbox-->
     <div id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
                     <h1>Contact Me</h1>
                     <div class="icons">
-                        <a href="https://www.linkedin.com/in/yesha-patel-80296b267/" target="linkedin"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/Klutzgurl477" target="github"><i class="fab fa-github"></i></a>
-                        <a href="https://sc.joinhandshake.com/profiles/33499603" target="handshake"><i class="fas fa-handshake"></i></a>
+                        <a href="https://www.linkedin.com/in/yesha-patel-80296b267/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Klutzgurl477" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://sc.joinhandshake.com/profiles/33499603" target="_blank" rel="noopener" aria-label="Handshake"><i class="fas fa-handshake"></i></a>
                     </div>
                 </div>
 
                 <div class="contact-right">
-                    <!-- make a code to test this to work -->
+                    <!-- Replace "my-form-id" below with your real Formspree form ID -->
                     <form action="https://formspree.io/f/my-form-id" method="POST">
                         <input type="text" name="name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
@@ -216,5 +215,22 @@
             </div>
         </div>
     </div>
+
+    <script>
+        // Mobile nav toggle
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        navToggle.addEventListener('click', () => {
+            const isOpen = navMenu.classList.toggle('open');
+            navToggle.setAttribute('aria-expanded', isOpen);
+        });
+        // Close menu after clicking a link (mobile)
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('open');
+                navToggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+    </script>
 </body>
 </html>
