@@ -1,236 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website - Computer Science Student: Yesha Patel</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yesha Patel — Computer Science, University of South Carolina</title>
+<meta name="description" content="Portfolio of Yesha Patel, Computer Science graduate from the University of South Carolina.">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body id="home">
-    <!-- Home -->
-    <div id="header">
-        <div class="container-nav">
-            <nav>
-                <img src="Images_website/uofsc.webp" alt="University of South Carolina logo" class="logo">
-                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <ul id="navMenu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about_me">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skill">Skills</a></li>
-                    <li><a href="#resume_section">Resume &amp; Transcript</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-                <h1>Hi, I'm <span>Yesha Patel</span><br>a Web Developer<br>from <span>UofSC</span></h1>
-            </div>
+
+<header id="header">
+  <div class="container-nav">
+    <nav>
+      <a href="#home" class="brand">
+        <span class="brand-mark">YP</span>
+        <span class="brand-text">Yesha Patel</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul id="navMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">// computer science, university of south carolina</p>
+        <h1>Yesha Patel</h1>
+        <p class="hero-role">Web Developer &amp; CS Graduate</p>
+        <p class="hero-sub">I build clean, functional front-ends and enjoy turning rough ideas into working software — from classroom team projects to personal tools.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
         </div>
-    </div>
-
-    <!-- About -->
-    <div id="about_me" class="about">
-        <h2>About Me</h2>
-        <p>
-            Hello, my name is Yesha Patel, and I am a Computer Science graduate from the University of South Carolina.<br>
-            I have hands-on experience in web development and design, particularly in front-end technologies like HTML,<br>
-            CSS, JavaScript, and Adobe Creative Cloud. I'm always eager to learn and work on projects that push my abilities.
-        </p>
-    </div>
-
-    <!-- Projects -->
-    <div id="projects" class="projects-section">
-        <h2 class="section-title">Projects</h2>
-        <div class="projects-container">
-            <!-- Project 1: LearnLink Capstone -->
-            <div class="project-card">
-                <div class="project-info">
-                    <h3>LearnLink Capstone Project</h3>
-                    <p>
-                        A web app facilitating student communication and study group formation using React.js and backend APIs.
-                    </p>
-                </div>
-                <div class="hover-overlay">
-                    <a href="https://github.com/SCCapstone/pandas-capstone" class="learn-more-btn" target="_blank" rel="noopener">Learn More</a>
-                </div>
-            </div>
-            <!-- Project 2: Learning Management System -->
-            <div class="project-card">
-                <div class="project-info">
-                    <h3>Learning Management System</h3>
-                    <p>
-                        Developed and tested Java code for managing courses, modules, and quizzes with a 4-person team using Scrum.
-                    </p>
-                </div>
-                <div class="hover-overlay">
-                    <a href="https://github.com/Klutzgurl477/LMS" class="learn-more-btn" target="_blank" rel="noopener">Learn More</a>
-                </div>
-            </div>
-            <!-- Project 3: Music App -->
-            <div class="project-card">
-                <div class="project-info">
-                    <h3>Music App Project</h3>
-                    <p>
-                        An Android app showcasing Taylor Swift's discography with album covers and descriptions, built in Kotlin.
-                    </p>
-                </div>
-                <div class="hover-overlay">
-                    <a href="https://github.com/Klutzgurl477/TaylorSwiftApp" class="learn-more-btn" target="_blank" rel="noopener">Learn More</a>
-                </div>
-            </div>
-            <!-- Project 4: Personal Mockup -->
-            <div class="project-card">
-                <div class="project-info">
-                    <h3>Personal Mockup Project</h3>
-                    <p>
-                        A mockup website showcasing front-end skills using JavaScript, HTML, and CSS, deployed on GitHub Pages.
-                    </p>
-                </div>
-                <div class="hover-overlay">
-                    <a href="https://github.com/Klutzgurl477/Klutzgurl477.github.io" class="learn-more-btn" target="_blank" rel="noopener">Learn More</a>
-                </div>
-            </div>
+      </div>
+      <div class="hero-portrait">
+        <div class="portrait-frame" id="portraitFrame">
+          <span class="portrait-initials">YP</span>
         </div>
+      </div>
     </div>
+  </div>
+</header>
 
-    <!-- Skills -->
-    <div id="skill">
-        <div class="skills-container">
-            <h2 class="skills-heading">Skills</h2>
+<main>
 
-            <div class="skills">
-                <div class="skills-list">
-                    <p class="c1">HTML/CSS</p>
-                    <p class="c1">90%</p>
-                </div>
-                <div class="skill-level">
-                    <div class="skill-bar html"></div>
-                </div>
-            </div>
+  <section id="about" class="section">
+    <div class="section-inner">
+      <p class="eyebrow">// about</p>
+      <h2>A little about me</h2>
+      <p class="about-copy">
+        I'm a Computer Science graduate from the University of South Carolina with hands-on experience
+        in front-end development and design — particularly HTML, CSS, JavaScript, and React. As a
+        Teaching Assistant, I spend my days helping students debug their code and understand core concepts,
+        which keeps my own fundamentals sharp. I like projects that have a real user at the end of them,
+        and I'm always looking for the next thing to learn.
+      </p>
+    </div>
+  </section>
 
-            <div class="skills">
-                <div class="skills-list">
-                    <p class="c1">Java</p>
-                    <p class="c1">80%</p>
-                </div>
-                <div class="skill-level">
-                    <div class="skill-bar java"></div>
-                </div>
-            </div>
+  <section id="projects" class="section section-alt">
+    <div class="section-inner">
+      <p class="eyebrow">// projects</p>
+      <h2>Selected work</h2>
+      <div class="projects-grid">
 
-            <div class="skills">
-                <div class="skills-list">
-                    <p class="c1">JavaScript</p>
-                    <p class="c1">85%</p>
-                </div>
-                <div class="skill-level">
-                    <div class="skill-bar javascript"></div>
-                </div>
-            </div>
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="project-tag">React · Capstone</span>
+          </div>
+          <h3>LearnLink</h3>
+          <p>A web app that helps students find study partners and form groups, built with React and a backend API.</p>
+          <a href="https://github.com/SCCapstone/pandas-capstone" class="project-link" target="_blank" rel="noopener">
+            View on GitHub <i class="fas fa-arrow-right"></i>
+          </a>
+        </article>
 
-            <div class="skills">
-                <div class="skills-list">
-                    <p class="c1">Python</p>
-                    <p class="c1">70%</p>
-                </div>
-                <div class="skill-level">
-                    <div class="skill-bar python"></div>
-                </div>
-            </div>
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="project-tag">Java · Scrum</span>
+          </div>
+          <h3>Learning Management System</h3>
+          <p>Course, module, and quiz management system built with a 4-person team using Scrum and test-driven Java.</p>
+          <a href="https://github.com/Klutzgurl477/LMS" class="project-link" target="_blank" rel="noopener">
+            View on GitHub <i class="fas fa-arrow-right"></i>
+          </a>
+        </article>
 
-            <div class="skills">
-                <div class="skills-list">
-                    <p class="c1">Kotlin</p>
-                    <p class="c1">80%</p>
-                </div>
-                <div class="skill-level">
-                    <div class="skill-bar kotlin"></div>
-                </div>
-            </div>
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="project-tag">Kotlin · Android</span>
+          </div>
+          <h3>Music App</h3>
+          <p>An Android app showcasing an artist's discography, with album art and details, built in Kotlin and Android Studio.</p>
+          <a href="https://github.com/Klutzgurl477/TaylorSwiftApp" class="project-link" target="_blank" rel="noopener">
+            View on GitHub <i class="fas fa-arrow-right"></i>
+          </a>
+        </article>
 
-            <div class="skills">
-                <div class="skills-list">
-                    <p class="c1">React</p>
-                    <p class="c1">85%</p>
-                </div>
-                <div class="skill-level">
-                    <div class="skill-bar react"></div>
-                </div>
-            </div>
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="project-tag">HTML · CSS · JS</span>
+          </div>
+          <h3>Front-End Mockup</h3>
+          <p>A from-scratch mockup site used to practice layout, responsive design, and deployment with GitHub Pages.</p>
+          <a href="https://github.com/Klutzgurl477/Klutzgurl477.github.io" class="project-link" target="_blank" rel="noopener">
+            View on GitHub <i class="fas fa-arrow-right"></i>
+          </a>
+        </article>
 
-            <div class="skills">
-                <div class="skills-list">
-                    <p class="c1">TypeScript</p>
-                    <p class="c1">80%</p>
-                </div>
-                <div class="skill-level">
-                    <div class="skill-bar typescript"></div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="section-inner">
+      <p class="eyebrow">// skills</p>
+      <h2>What I work with</h2>
+      <div class="skills-grid">
+        <div class="skill-row">
+          <div class="skill-row-top"><span>HTML / CSS</span><span class="skill-pct">90%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:90%"></div></div>
         </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>JavaScript</span><span class="skill-pct">85%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:85%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>React</span><span class="skill-pct">85%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:85%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>Java</span><span class="skill-pct">80%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>Kotlin</span><span class="skill-pct">80%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>TypeScript</span><span class="skill-pct">80%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-row-top"><span>Python</span><span class="skill-pct">70%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:70%"></div></div>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <!-- Resume & Transcript -->
-    <div id="resume_section">
-        <h2>Resume &amp; Transcript</h2>
-        <p>You can download my resume and transcript here:</p>
-        <a href="Images_website/Yesha_resume_updated_4.pdf" class="download-link">
-            <i class="fas fa-file-alt"></i> <br>
-            Download Resume
-        </a><br>
-        <a href="Images_website/Academic_Transcript_unofficial.pdf" class="download-link">
-            <i class="fas fa-file-alt"></i> <br>
-            Download Transcript
+  <section id="resume" class="section section-alt">
+    <div class="section-inner section-inner-narrow">
+      <p class="eyebrow">// documents</p>
+      <h2>Resume &amp; transcript</h2>
+      <p class="resume-copy">Download a copy of my resume or unofficial academic transcript.</p>
+      <div class="resume-actions">
+        <a href="Images_website/Yesha_resume_updated_4.pdf" class="btn btn-primary" download>
+          <i class="fas fa-file-arrow-down"></i> Download Resume
         </a>
+        <a href="Images_website/Academic_Transcript_unofficial.pdf" class="btn btn-outline" download>
+          <i class="fas fa-file-arrow-down"></i> Download Transcript
+        </a>
+      </div>
     </div>
+  </section>
 
-    <!-- Contact -->
-    <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1>Contact Me</h1>
-                    <div class="icons">
-                        <a href="https://www.linkedin.com/in/yesha-patel-80296b267/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/Klutzgurl477" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://sc.joinhandshake.com/profiles/33499603" target="_blank" rel="noopener" aria-label="Handshake"><i class="fas fa-handshake"></i></a>
-                    </div>
-                </div>
-
-                <div class="contact-right">
-                    <!-- Replace "my-form-id" below with your real Formspree form ID -->
-                    <form action="https://formspree.io/f/my-form-id" method="POST">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <textarea name="message" placeholder="Your Message" required></textarea>
-                        <button type="submit">Send</button>
-                    </form>
-                </div>
-            </div>
+  <section id="contact" class="section">
+    <div class="section-inner section-inner-narrow">
+      <p class="eyebrow">// contact</p>
+      <h2>Let's work together</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>Whether you have a role in mind or just want to connect, my inbox is open.</p>
+          <div class="icons">
+            <a href="https://www.linkedin.com/in/yesha-patel-80296b267/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Klutzgurl477" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://sc.joinhandshake.com/profiles/33499603" target="_blank" rel="noopener" aria-label="Handshake"><i class="fas fa-handshake"></i></a>
+          </div>
         </div>
+        <form class="contact-form" action="https://formspree.io/f/my-form-id" method="POST">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="message" placeholder="Your message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
     </div>
+  </section>
 
-    <script>
-        // Mobile nav toggle
-        const navToggle = document.getElementById('navToggle');
-        const navMenu = document.getElementById('navMenu');
-        navToggle.addEventListener('click', () => {
-            const isOpen = navMenu.classList.toggle('open');
-            navToggle.setAttribute('aria-expanded', isOpen);
-        });
-        // Close menu after clicking a link (mobile)
-        navMenu.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                navMenu.classList.remove('open');
-                navToggle.setAttribute('aria-expanded', 'false');
-            });
-        });
-    </script>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Yesha Patel. Built with care.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
