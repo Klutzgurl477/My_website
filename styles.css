@@ -25,13 +25,7 @@
     color: inherit;
   }
   
-  .eyebrow{
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.8rem;
-    color: #6B2A3A;
-    letter-spacing: 0.02em;
-    margin-bottom: 0.75rem;
-  }
+
   
   /* Header / Nav */
   #header{
